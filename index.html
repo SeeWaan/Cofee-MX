@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="PRUEBA.css">
+    <title>Coffe MX</title>
+</head>
+<body>
+    <header>
+        <div><a href=""><img width="200px" src="./imagenes/logo.png" alt="logo"></a></div>
+        <nav>
+          <nav>
+            <button onclick="openRegistration()">Registrarse</button>
+          </nav>
+          <nav>
+            <button onclick="openLogin()">Iniciar Sesión</button>
+          </nav>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>De que tienes ganas hoy?</h2>
+        <div class="menu">
+            <button onclick="mostrarComida()">
+              <img src="imagenes/food.jpg" alt="Comida">
+              <p>Comida</p>
+            </button> 
+            <button onclick="mostrarBebidas()">
+                <img src="imagenes/drinks.jpeg" alt="Bebidas">
+                <p>Bebidas</p>
+            </button>
+            <button onclick="mostrarCafe()">
+                <img src="imagenes/coffee.JPG" alt="Café">
+                <p>Café</p>
+            </button>
+        </div>
+        <div class="alimentos" id="alimentos">
+          <div class="productos">
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/brownies.webp" alt="Comida">
+                <p>brownie</p>
+                <p class="price">$20</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/cheesecake.jpg" alt="Comida">
+                <p>cheesecake</p>
+                <p class="price">$40</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/croissants.jpg" alt="Comida">
+                <p>croissants</p>
+                <p class="price">$30</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/muffin.webp" alt="Comida">
+                <p>muffin</p>
+                <p class="price">$25</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/pastel de zanahoria.webp" alt="Comida">
+                <p>pastel de zanahoria</p>
+                <p class="price">$35</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/sandwhices.jpg" alt="Comida">
+                <p>sandwiches</p>
+                <p class="price">$60</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/tarta de manzana.jpg" alt="Comida">
+                <p>tarta de manzana</p>
+                <p class="price">$35</p>
+              </button>
+            </div>  
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/wrap.jpeg" alt="Comida">
+                  <p>wrap</p>
+                  <p class="price">$60</p>
+              </button>
+            </div> 
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/cookies.jpg" alt="Comida">
+                <p>Galletas</p>
+                <p class="price">$15</p>
+              </button>
+            </div>                       
+          </div>
+        </div>
+          
+        <div class="bebidas" id="bebidas">
+          <div class="productos">
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/hot-chocalte.avif" alt="Comida">
+                <p>chocolate caliente</p>
+                <p class="price">$50</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/te de hierbas.jpg" alt="Comida">
+                <p>te de hierbas</p>
+                <p class="price">$45</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/te de frutas.webp" alt="Comida">
+                <p>te de frutas</p>
+                <p class="price">$45</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/smothies de bayas.jpeg" alt="Comida">
+                  <p>smothies de bayas</p>
+                  <p class="price">$55</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/smothies tropicales.jpg" alt="Comida">
+                  <p>smothies tropicales</p>
+                  <p class="price">$55</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/limonada clasica.webp" alt="Comida">
+                <p>limonada</p>
+                <p class="price">$30</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/limonada de sabores.jpg" alt="Comida">
+                <p>limonada de sabores</p>
+                <p class="price">$40</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/refrescos.webp" alt="Comida">
+                <p>refrescos</p>
+                <p class="price">$25</p>
+              </button>
+            </div>  
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/chai latte.jpg" alt="Comida">
+                <p>chai latte</p>
+                <p class="price">$45</p>
+              </button>
+            </div>                                                
+          </div>
+        </div>
+
+        <div class="cafe" id="cafe">
+          <div class="productos">
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/espresso.webp" alt="Comida">
+                <p>espresso</p>
+                <p class="price">$50</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/americano clasico.jpeg" alt="Comida">
+                <p>americano</p>
+                <p class="price">$35</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/latte.jpg" alt="Comida">
+                <p>latte</p>
+                <p class="price">$45</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/capuccino.jpg" alt="Comida">
+                <p>capuccino</p>
+                <p class="price">$50</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/maccchiato.webp" alt="Comida">
+                <p>maccchiato</p>
+                <p class="price">$45</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/cold brew.jpg" alt="Comida">
+                <p>cold brew</p>
+                <p class="price">$45</p>
+              </button>
+            </div>
+            <div class="item producto">
+              <button class="item producto" onclick="">
+                <img src="./imagenes/productos/mocha.jpg" alt="Comida">
+                <p>mocha</p>
+                <p class="price">$55</p>
+              </button>
+            </div>                             
+          </div>
+        </div>
+
+        <div class="cursiva">
+          <h2>Los Favoritos de los Clientes</h2>
+        </div>
+        <div class="favorites">
+          <button>
+            <img src="imagenes/matcha.jpg" alt="Mocha">
+            <p>Matcha</p>
+          </button>
+          <button>
+            <img src="imagenes/hot-chocalte.avif" alt="Chocolate Caliente">
+            <p>Chocolate Caliente</p>
+          </button>
+          <button>
+            <img src="imagenes/cookies.jpg" alt="Galletas">
+            <p>Galletas</p>
+          </button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-section">
+          <div class="locations">
+            <h3>Ubicaciones</h3>
+            <p>Sucursal 1: Calle Primera #348 Ensenada Baja California</p>
+            <!-- Agrega más ubicaciones según sea necesario -->
+          </div>
+          <div class="contact">
+            <h3>Contactanos</h3>
+            <p>Email: info@mycoffeeshop.com</p>
+            <p>Teléfono: +1 123-456-7890</p>
+          </div>
+          <div class="temas">
+            <h3>Temas</h3>
+            <p><a href="https://ciencias.ens.uabc.mx/documentos/planes/lcc/PlanLCC_2017-1.pdf">Plan de Estudios</a></p>
+            <p><a href="https://www.uabc.mx/">UABC</a></p>
+          </div>
+        </div>
+        <p>&copy; 2023 My Coffee Shop</p>
+    </footer>
+    <script src="PRUEBA.js"></script>
+</body>
+</html>
