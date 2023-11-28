@@ -1,2 +1,2 @@
 # Cofee-MX
-Pagina que muestra el menu de unca cafeteria ficticia
+Pagina que muestra el menu de una cafeteria ficticia
